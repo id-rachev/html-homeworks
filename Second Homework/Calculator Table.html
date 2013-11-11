@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator Table</title>
+	<style type="text/css">
+		td
+		{
+			text-align:center;
+		}
+		input
+		{
+			background:grey;
+			width:20px;
+		}
+	</style>
+</head>
+<body>
+	<table border="1" cellspacing="0" cellpadding="0">
+		<colgroup>
+			<col style="width:25px"/>
+			<col style="width:25px"/>
+			<col style="width:25px"/>
+			<col style="width:25px"/>
+		</colgroup>
+		<tbody>
+			<tr>	
+				<th colspan="4">
+					<input type="text" id="result"
+					disabled="" value="1234567890"
+					style="width:94px;text-align:right;
+					background:lightblue"/>
+				</th>
+			</tr>
+			<tr>
+				<td>
+					<input type="button" id="one"
+					value="1" onclick="..."/>
+				</td>
+				<td>
+					<input type="button" id="two"
+					value="2" onclick="..."/>
+				</td>
+				<td>
+					<input type="button" id="three"
+					value="3" onclick="..."/>
+				</td>
+				<td>
+					<input type="button" id="multipy"
+					value="*" onclick="..."/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="button" id="four"
+					value="4" onclick="..."/>
+				</td>
+				<td>
+					<input type="button" id="five"
+					value="5" onclick="..."/>
+				</td>
+				<td>
+					<input type="button" id="six"
+					value="6" onclick="..."/>
+				</td>
+				<td>
+					<input type="button" id="divide"
+					value="/" onclick="..."/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="button" id="seven"
+					value="7" onclick="..."/>
+				</td>
+				<td>
+					<input type="button" id="eight"
+					value="8" onclick="..."/>
+				</td>
+				<td>
+					<input type="button" id="nine"
+					value="9" onclick="..."/>
+				</td>
+				<td>
+					<input type="button" id="minus"
+					value="-" onclick="..."/>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="button" id="zero"
+					value="0" style="width:45px" onclick="..."/>
+				</td>
+				<td>
+					<input type="button" id="dot"
+					value="." onclick="..."/>
+				</td>
+				<td>
+					<input type="button" id="plus"
+					value="+" onclick="..."/>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="button" id="clear"
+					value="C" style="width:45px" onclick="..."/>
+				</td>
+				<td colspan="2">
+					<input type="button" id="calculate"
+					value="=" style="width:45px" onclick="..."/>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
